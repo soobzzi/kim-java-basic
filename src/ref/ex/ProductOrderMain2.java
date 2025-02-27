@@ -10,6 +10,7 @@ public class ProductOrderMain2 {
 
         printOrders(orders);
         int totalAmount = getTotalAmount(orders);
+        //ctrl+alt+v int totalAmount 만들어주는 단축키 ㅎㅎ...
         System.out.println("총 결제 금액: " + totalAmount);
     }
 

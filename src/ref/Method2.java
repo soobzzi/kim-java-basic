@@ -14,7 +14,7 @@ public class Method2 {
 
     static Student createStudent(String name, int age, int grade) {
         Student student = new Student(); //x001
-        System.out.println("student=" + student);
+        System.out.println("create student의 참조값 : " + student);
         student.name = name;
         student.age = age;
         student.grade = grade;

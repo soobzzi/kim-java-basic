@@ -11,5 +11,6 @@ public class MethodChange1 {
 
     static void changePrimitive(int x) {
         x = 20;
+        System.out.println(x);
     }
 }

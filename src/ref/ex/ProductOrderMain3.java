@@ -8,7 +8,7 @@ public class ProductOrderMain3 {
         Scanner scanner = new Scanner(System.in);
         System.out.print("입력할 주문의 개수를 입력하세요: ");
         int n = scanner.nextInt();
-        scanner.nextLine();
+        scanner.nextLine();//입력 버퍼를 비우기 위한 코드
 
         ProductOrder[] orders = new ProductOrder[n];
         for (int i = 0; i < orders.length; i++) {
