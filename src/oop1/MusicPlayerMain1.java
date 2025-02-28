@@ -5,6 +5,7 @@ public class MusicPlayerMain1 {
     public static void main(String[] args) {
         int volume = 0;
         boolean isOn = false;
+        //F2 다음오류로 이동 단축키
 
         //음악 플레이어 켜기
         isOn = true;
